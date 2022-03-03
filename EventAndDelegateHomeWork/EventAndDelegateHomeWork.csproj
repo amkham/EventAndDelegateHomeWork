@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Display.cs" />
+    <Compile Include="InterfaceForStudent\Clock\Timer.cs" />
+    <Compile Include="InterfaceForStudent\Dowloader\Dowloader.cs" />
+    <Compile Include="InterfaceForStudent\Dowloader\InternetFile.cs" />
+    <Compile Include="InterfaceForStudent\Player\Player.cs" />
+    <Compile Include="InterfaceForStudent\Player\Track.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
